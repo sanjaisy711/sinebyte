@@ -31,7 +31,7 @@ export default function VideoNavbar(){
         return () => {
             window.removeEventListener('scroll', windowScroll);
         };
-    }, []);
+    }, [pathname]);
 
     const toggleMenu = () => {
         setisMenu(!isMenu);

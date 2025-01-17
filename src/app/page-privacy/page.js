@@ -258,7 +258,7 @@ export default function Page() {
                   We may update this Privacy Policy from time to time to reflect
                   changes in our practices or for legal or regulatory reasons.
                   We will notify you of any material changes by updating the
-                  "Last Updated" date at the top of this page.
+                  Last Updated date at the top of this page.
                 </p>
 
                 <h4 className="text-xl font-semibold mb-4 mt-8">

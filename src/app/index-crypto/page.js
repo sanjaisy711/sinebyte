@@ -85,7 +85,7 @@ export default function Page() {
   useEffect(() => {
     let interval = setInterval(() => getTime(deadline), 1000);
     return () => clearInterval(interval);
-  }, []);
+  }, [deadline, getTime]);
 
   useEffect(() => {
     const htmlTag = document.getElementsByTagName("html")[0];

@@ -270,7 +270,7 @@ export default function Page() {
                   10. Disclaimer of Warranties
                 </h5>
                 <p className="text-slate-400">
-                  The Services are provided "as is" and "as available" without
+                  The Services are provided as is and as available without
                   warranties of any kind, whether express or implied, including,
                   but not limited to, implied warranties of merchantability,
                   fitness for a particular purpose, non-infringement, or course

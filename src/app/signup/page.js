@@ -292,7 +292,7 @@ export default function Page() {
                       <option value="+420">
                         🇨🇿 +420 - Czech Republic (Czechia)
                       </option>
-                      <option value="+225">🇨🇮 +225 - Côte d'Ivoire</option>
+                      <option value="+225">🇨🇮 +225 - Côte dIvoire</option>
                       <option value="+45">🇩🇰 +45 - Denmark</option>
                       <option value="+253">🇩🇯 +253 - Djibouti</option>
                       <option value="+1-767">🇩🇲 +1-767 - Dominica</option>
