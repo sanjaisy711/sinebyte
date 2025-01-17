@@ -32,7 +32,7 @@ export default function Page() {
               className="inline-block uppercase text-[13px] font-bold duration-500 ease-in-out text-indigo-600"
               aria-current="page"
             >
-              Terms
+              Terms of Services
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@ export default function Page() {
                 <h5 className="text-xl font-semibold mb-4">
                   Terms of Service :
                 </h5>
-                <p className="text-slate-400">Last Updated: 22/10/2024</p>
+                <p className="text-slate-400">Last Updated: 17/01/2025</p>
                 <p className="text-slate-400">
                   Welcome to Sinebyte Technologies. These Terms of Service
                   (“Terms”) govern your access to and use of our website,
