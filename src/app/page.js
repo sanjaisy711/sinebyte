@@ -102,8 +102,8 @@ export default function Page() {
                   />
                 </h1>
                 <p className="text-lg max-w-xl lg:ms-0 mx-auto">
-                  Beatae cum eius, animi itaque aliquid ducimus facere dicta,
-                  vitae ipsam maiores nam sit blanditiis, quisquam expedita?
+                  Sinebyte lets you transform ideas into powerful Enterprise
+                  applications that adapt to your business needs.
                 </p>
 
                 <div className="subcribe-form mt-6 mb-3">
@@ -133,12 +133,12 @@ export default function Page() {
               <div className="relative after:content-[''] after:absolute lg:after:-top-0 after:-top-10 after:-right-32 after:size-[36rem] after:border-2 after:border-dashed after:border-slate-200 dark:after:border-slate-700 after:rounded-full after:animate-[spin_120s_linear_infinite] after:-z-1 before:content-[''] before:absolute lg:before:-top-24 before:-top-36 before:-right-56 before:w-[48rem] before:h-[48rem] before:border-2 before:border-dashed before:border-slate-200 dark:before:border-slate-700 before:rounded-full before:animate-[spin_240s_linear_infinite] before:-z-1">
                 <div className="relative after:content-[''] after:absolute lg:after:-top-0 after:-top-10 after:-right-40 after:size-[36rem] after:bg-gradient-to-tl after:to-indigo-600/30  after:from-red-600/30 dark:after:to-indigo-600/50 dark:after:from-red-600/50 after: after:blur-[200px] after:rounded-full after:-z-1">
                   <Image
-                    src="/images/saas/light-dash.png"
+                    src="/images/light-dash.png"
                     width={0}
                     height={0}
                     sizes="100vw"
                     placeholder="blur"
-                    blurDataURL="/images/saas/light-dash.png"
+                    blurDataURL="/images/light-dash.png"
                     style={{ width: "1175px", height: "auto" }}
                     className="lg:max-w-none lg:ms-14"
                     alt=""
@@ -202,7 +202,7 @@ export default function Page() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:ps-12 ps-8 lg:pt-12 pt-8 lg:me-8">
               <Image
-                src="/images/saas/1.png"
+                src="/images/dataform.png"
                 width={0}
                 height={0}
                 sizes="100vw"
@@ -214,26 +214,27 @@ export default function Page() {
 
             <div className="">
               <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Create Content In Single <br /> Click With AI Power
+                Dataform
               </h3>
               <p className="text-slate-400 max-w-xl">
-                You can combine all the sinebyte templates into a single one,
-                you can take a component from the Application theme and use it
-                in the Website.
+                Our platform’s Data Form feature allows you to create custom
+                forms effortlessly without coding.With a drag-and-drop
+                interface, it streamlines data collection, validation, and
+                integration into your applications
               </p>
 
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Digital Marketing Solutions for Tomorrow
+                  Simplify workflows
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Our Talented & Experienced Marketing Agency
+                  Reduce errors
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Create your own skin to match your brand
+                  Manage data efficiently all hassle-free
                 </li>
               </ul>
 
@@ -255,7 +256,7 @@ export default function Page() {
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
-                  src="/images/saas/2.png"
+                  src="/images/process.gif"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -268,26 +269,134 @@ export default function Page() {
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Write Blog Posts, <br /> Stories, & Even Books
+                Process
               </h4>
               <p className="text-slate-400">
-                Due to its widespread use as filler text for layouts,
-                non-readability is of great importance: human perception is
-                tuned to recognize certain patterns and repetitions in texts. If
-                the distribution of letters visual impact.
+                Automate complex workflows without code. Our platform's Process
+                feature lets you design and automate processes with a simple
+                drag-and-drop interface. Integrates seamlessly with your data
+                and scales with your business. Streamline operations and reduce
+                manual work.
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Digital Marketing Solutions for Tomorrow
+                  Seamlessly integrate data
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  Our Talented & Experienced Marketing Agency
+                  Scale as your business grows
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Create your own skin to match your brand
+                  Apps to keep your operations running smoothly
+                </li>
+              </ul>
+
+              <div className="mt-4">
+                <Link
+                  href="page-aboutus.html"
+                  className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                >
+                  Find Out More{" "}
+                  <MdKeyboardArrowRight className="ms-1 text-lg" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container relative md:mt-24 mt-16">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+            <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:ps-12 ps-8 lg:pt-12 pt-8 lg:me-8">
+              <Image
+                src="/images/classic04.png"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
+                alt=""
+              />
+            </div>
+
+            <div className="">
+              <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
+                App
+              </h3>
+              <p className="text-slate-400 max-w-xl">
+                Our platform’s App feature allows you to create custom
+                applications tailored to your business needs without any coding.
+                With an intuitive interface and pre-built components, you can
+                design, deploy, and manage apps quickly and efficiently.
+              </p>
+
+              <ul className="list-none text-slate-400 mt-4">
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  Streamline operations
+                </li>
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  Enhance user experiences
+                </li>
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  Adapt to changing requirements
+                </li>
+              </ul>
+
+              <div className="mt-4">
+                <Link
+                  href="page-aboutus.html"
+                  className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
+                >
+                  Find Out More{" "}
+                  <MdKeyboardArrowRight className="ms-1 text-lg" />
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container relative md:mt-24 mt-16">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+            <div className="relative order-1 md:order-2">
+              <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
+                <Image
+                  src="/images/classic05.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  className="ltr:rounded-tr-lg rtl:rounded-tl-lg"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="order-2 md:order-1">
+              <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
+                Analytics
+              </h4>
+              <p className="text-slate-400">
+                Our platform's Analytics feature empowers you to turn data into
+                actionable insights effortlessly. With intuitive dashboards and
+                customizable reports, you can visualize key metrics and track
+                performance in real time.
+              </p>
+              <ul className="list-none text-slate-400 mt-4">
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  Make informed decisions.
+                </li>
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />
+                  Identify trends, and optimize processes.
+                </li>
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  All without the need for data analysis skills.
                 </li>
               </ul>
 
@@ -480,7 +589,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="container relative md:mt-24 mt-16">
+        {/* <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
               What Our Users Say
@@ -491,9 +600,9 @@ export default function Page() {
               need to generate awareness, drive traffic, connect.
             </p>
           </div>
-        </div>
+        </div> */}
 
-        <div className="container-fluid relative overflow-hidden">
+        {/* <div className="container-fluid relative overflow-hidden">
           <div className="grid grid-cols-1 mt-8">
             <div className="slider relative overflow-hidden m-auto mb-4 before:content-[''] before:absolute before:top-0 before:start-0 before:z-2 after:content-[''] after:absolute after:top-0 after:end-0 after:z-2">
               <div className="slide-track flex items-center">
@@ -2271,7 +2380,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="container relative md:mt-24 mt-16">
           <div className="grid lg:grid-cols-12 md:grid-cols-2 grid-cols-1 items-center md:gap-[30px]">
@@ -2280,13 +2389,13 @@ export default function Page() {
                 Frequently Asked Questions
               </h3>
 
-              <p className="text-slate-400 max-w-xl mx-auto mb-6">
+              {/* <p className="text-slate-400 max-w-xl mx-auto mb-6">
                 Start working with Tailwind CSS that can provide everything you
                 need to generate awareness, drive traffic, connect.
-              </p>
+              </p> */}
 
               <Link
-                href="#"
+                href="/contactus"
                 className="py-2 px-5 inline-block font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-transparent hover:bg-indigo-600 border-gray-100 dark:border-gray-800 hover:border-indigo-600 dark:hover:border-indigo-600 text-slate-900 dark:text-white hover:text-white rounded-full"
               >
                 Contact Us
@@ -2331,23 +2440,32 @@ export default function Page() {
                     </button>
                   </h2>
                   {activeIndex === index && (
-                    <div>
+                    <div
+                      id="accordion-collapse-body-1"
+                      aria-labelledby="accordion-collapse-heading-1"
+                    >
                       <div className="p-5">
                         <p className="text-slate-400 dark:text-gray-400">
-                          There are many variations of passages of Lorem Ipsum
-                          available, but the majority have suffered alteration
-                          in some form.
+                          {item.content}
                         </p>
                       </div>
                     </div>
                   )}
                 </div>
               ))}
+              <div className="mt-4">
+                <Link
+                  href="/helpcenter-faqs"
+                  className="relative inline-flex items-right font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500"
+                >
+                  For More <MdKeyboardArrowRight className="text-xl ms-1" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="container relative md:mt-24 mt-16">
+        {/* <div className="container relative md:mt-24 mt-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-[26px] md:leading-normal text-2xl leading-normal font-semibold">
               Our Pricing Plans
@@ -2406,8 +2524,8 @@ export default function Page() {
               );
             })}
           </div>
-        </div>
-        <MobileApp />
+        </div> */}
+        {/* <MobileApp /> */}
       </section>
       <Footer />
       <CookieModal />

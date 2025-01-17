@@ -267,143 +267,21 @@ export default function Navbar(props) {
                   : ""
               } has-submenu parent-parent-menu-item`}
             >
-              <Link href="/page-services">Features</Link>
+              <Link href="/features">Features</Link>
             </li>
 
             <li
               className={`${
-                [
-                  "/page-aboutus",
-                  "/page-services",
-                  "/page-team",
-                  "/page-pricing",
-                  "/page-testimonial",
-                  "/user-profile",
-                  "/user-billing",
-                  "/user-payment",
-                  "/user-invoice",
-                  "/user-notification",
-                  "/user-setting",
-                  "/property-listing",
-                  "/property-detail",
-                  "/course-listing",
-                  "/course-detail",
-                  "/nft-explore",
-                  "/nft-auction",
-                  "/nft-collection",
-                  "/nft-creators",
-                  "/nft-creator-profile",
-                  "/nft-creator-profile-edit",
-                  "/nft-wallet",
-                  "/nft-create-item",
-                  "/nft-detail",
-                  "/food-recipe",
-                  "/shop-grid",
-                  "/shop-grid",
-                  "/shop-grid-two",
-                  "/shop-item-detail",
-                  "/shop-cart",
-                  "/shop-checkout",
-                  "/food-recipe",
-                  "/shop-grid",
-                  "/shop-grid-two",
-                  "/shop-item-detail",
-                  "/shop-cart",
-                  "/shop-checkout",
-                  "/shop-account",
-                  "/food-recipe",
-                  "/shop-grid",
-                  "/shop-grid-two",
-                  "/shop-item-detail",
-                  "/shop-cart",
-                  "/shop-checkout",
-                  "/shop-account",
-                  "/photography-about",
-                  "/photography-portfolio",
-                  "/page-job-grid",
-                  "/page-job-detail",
-                  "/page-job-apply",
-                  "/page-job-post",
-                  "/page-job-career",
-                  "/page-job-candidates",
-                  "/page-job-candidate-detail",
-                  "/page-job-companies",
-                  "/page-Job-company-detail",
-                  "/forums-topic",
-                  "/forums-comments",
-                  "/helpcenter-overview",
-                  "/helpcenter-faqs",
-                  "/helpcenter-guides",
-                  "/helpcenter-support",
-                  "/blog",
-                  "/blog-sidebar",
-                  "/blog-detail",
-                  "/blog-standard-post",
-                  "/blog-slider-post",
-                  "/blog-gallery-post",
-                  "/blog-youtube-post",
-                  "/blog-vimeo-post",
-                  "/blog-audio-post",
-                  "/blog-blockquote-post",
-                  "/blog-left-sidebar-post",
-                  "/email-confirmation",
-                  "/email-password-reset",
-                  "/email-alert",
-                  "/email-invoice",
-                  "/auth-login",
-                  "/auth-signup",
-                  "/auth-re-password",
-                  "/auth-lock-screen",
-                  "/page-terms",
-                  "/page-privacy",
-                  "/page-comingsoon",
-                  "/page-maintenance",
-                  "/page-error",
-                  "/page-thankyou",
-                  "/contact-detail",
-                  "/contact-one",
-                  "/contact-two",
-                  "/page-services",
-                  "/page-service-detail",
-                ].includes(manu)
-                  ? "active"
-                  : ""
+                ["/features"].includes(manu) ? "active" : ""
               } has-submenu parent-parent-menu-item`}
             >
-              <Link href="/page-pricing">Pricing</Link>
+              <Link href="/pricing">Pricing</Link>
               {/* <span className="menu-arrow"></span> */}
             </li>
 
             <li
               className={`${
-                [
-                  "/portfolio-modern-two",
-                  "/portfolio-modern-three",
-                  "/portfolio-modern-four",
-                  "/portfolio-modern-five",
-                  "/portfolio-modern-six",
-                  "/portfolio-classic-two",
-                  "/portfolio-classic-three",
-                  "/portfolio-classic-four",
-                  "/portfolio-classic-five",
-                  "/portfolio-classic-six",
-                  "/portfolio-creative-two",
-                  "/portfolio-creative-three",
-                  "/portfolio-creative-four",
-                  "/portfolio-creative-five",
-                  "/portfolio-creative-six",
-                  "/portfolio-masonry-two",
-                  "/portfolio-masonry-three",
-                  "/portfolio-masonry-four",
-                  "/portfolio-masonry-five",
-                  "/portfolio-masonry-six",
-                  "/portfolio-detail-one",
-                  "/portfolio-detail-two",
-                  "/portfolio-detail-three",
-                  "/portfolio-detail-four",
-                ].includes(manu)
-                  ? "active"
-                  : ""
+                ["/blog"].includes(manu) ? "active" : ""
               } has-submenu parent-parent-menu-item`}
             >
               <Link href="/blog">Blog</Link>
@@ -419,13 +297,18 @@ export default function Navbar(props) {
                   : ""
               } has-submenu parent-menu-item`}
             >
-              <Link href="/page-aboutus">About Us</Link>
+              <Link href="/aboutus">About Us</Link>
               {/* <span className="menu-arrow"></span> */}
             </li>
 
             <li className={manu === "/contact-one" || "" ? "active" : ""}>
-              <Link href="/contact-one" className="sub-menu-item">
+              <Link href="/contactus" className="sub-menu-item">
                 Contact Us
+              </Link>
+            </li>
+            <li className={manu === "/contact-one" || "" ? "active" : ""}>
+              <Link href="/signup" className="sub-menu-item">
+                GET Started
               </Link>
             </li>
           </ul>

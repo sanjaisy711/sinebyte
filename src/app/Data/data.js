@@ -84,39 +84,39 @@ export const teams = [
 export const KeyFeatures = [
   {
     Icon: Icon.Monitor,
-    title: "Fully Responsive",
+    title: "Design & Develop App",
   },
   {
     Icon: Icon.Heart,
-    title: "Browser Compatibility",
+    title: "Test & Deploy Apps",
   },
   {
     Icon: Icon.Eye,
-    title: "Retina Ready",
+    title: "Easy-to-use",
   },
   {
     Icon: Icon.Layout,
-    title: "Based On Tailwindcss 3",
+    title: "Tailored your Business",
   },
   {
     Icon: Icon.Feather,
-    title: "Feather Icons",
+    title: "Low-code No-code app",
   },
   {
     Icon: Icon.Code,
-    title: "Built With SASS",
+    title: "Get your apps up",
   },
   {
     Icon: Icon.UserCheck,
-    title: "W3c Valid Code",
+    title: "Running 10X Faster",
   },
   {
     Icon: Icon.Globe,
-    title: "Browsers Compatible",
+    title: "Co-create your business apps",
   },
   {
     Icon: Icon.Settings,
-    title: "Easy to customize",
+    title: "At single platform",
   },
 ];
 export const clientsData = [
@@ -199,42 +199,42 @@ export const blogData = [
     title: "Best Cup Of Drinks For Your Break Today",
     desc: "The phrasal sequence of the is now so that many campaign and benefit",
   },
-  {
-    id: 7,
-    Image: "/images/gym/blog1.jpg",
-    title: "How to Maximize Time Spent at the Gym",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
-  },
-  {
-    id: 8,
-    Image: "/images/gym/blog2.jpg",
-    title: "Today is the Best Day to Start Training",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
-  },
-  {
-    id: 9,
-    Image: "/images/gym/blog3.jpg",
-    title: "Simple Condition for all Around Fitness",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
-  },
-  {
-    id: 10,
-    Image: "/images/spa/b1.jpg",
-    title: "Hiking for health in Peru",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
-  },
-  {
-    id: 11,
-    Image: "/images/spa/b2.jpg",
-    title: "Sisley Spa opens at Miramar",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
-  },
-  {
-    id: 12,
-    Image: "/images/spa/b3.jpg",
-    title: "Top 5 Tips for Choosing a Day Spa",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
-  },
+  // {
+  //   id: 7,
+  //   Image: "/images/gym/blog1.jpg",
+  //   title: "How to Maximize Time Spent at the Gym",
+  //   desc: "The phrasal sequence of the is now so that many campaign and benefit",
+  // },
+  // {
+  //   id: 8,
+  //   Image: "/images/gym/blog2.jpg",
+  //   title: "Today is the Best Day to Start Training",
+  //   desc: "The phrasal sequence of the is now so that many campaign and benefit",
+  // },
+  // {
+  //   id: 9,
+  //   Image: "/images/gym/blog3.jpg",
+  //   title: "Simple Condition for all Around Fitness",
+  //   desc: "The phrasal sequence of the is now so that many campaign and benefit",
+  // },
+  // {
+  //   id: 10,
+  //   Image: "/images/spa/b1.jpg",
+  //   title: "Hiking for health in Peru",
+  //   desc: "The phrasal sequence of the is now so that many campaign and benefit",
+  // },
+  // {
+  //   id: 11,
+  //   Image: "/images/spa/b2.jpg",
+  //   title: "Sisley Spa opens at Miramar",
+  //   desc: "The phrasal sequence of the is now so that many campaign and benefit",
+  // },
+  // {
+  //   id: 12,
+  //   Image: "/images/spa/b3.jpg",
+  //   title: "Top 5 Tips for Choosing a Day Spa",
+  //   desc: "The phrasal sequence of the is now so that many campaign and benefit",
+  // },
 ];
 export const KeyFeaturestwo = [
   {

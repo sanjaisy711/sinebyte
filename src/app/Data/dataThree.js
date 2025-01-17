@@ -2,6 +2,10 @@ import * as Icon from "react-feather";
 
 import { HiArrowTrendingUp, HiOutlineCog6Tooth } from "react-icons/hi2";
 import { FaArrowsSpin } from "react-icons/fa6";
+import { GiProcessor } from "react-icons/gi";
+import { BiChalkboard } from "react-icons/bi";
+import { MdOutlineAppShortcut, MdOutlineAnalytics } from "react-icons/md";
+import { RiPieChart2Fill } from "react-icons/ri";
 import {
   MdApi,
   MdCenterFocusWeak,
@@ -105,6 +109,7 @@ import {
   BsSuitClub,
 } from "react-icons/bs";
 import { TfiTruck } from "react-icons/tfi";
+import { SiGoogleforms } from "react-icons/si";
 
 export const businessAbout = [
   {
@@ -1139,34 +1144,34 @@ export const servicesData = [
 ];
 export const servicesTwo = [
   {
-    icon: FiAirplay,
-    title: "UX / UI Design",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    icon: SiGoogleforms,
+    title: "Data Form",
+    desc: "Our platform’s Data Form feature allows you to create custom forms effortlessly without coding.",
   },
   {
-    icon: MdApi,
-    title: "IOS App Designer",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    icon: GiProcessor,
+    title: "Process",
+    desc: "Automate complex workflows without code. Our platform's Process feature lets you design and automate processes with a simple drag-and-drop interface. ",
   },
   {
-    icon: TbCameraPlus,
-    title: "Photography",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    icon: BiChalkboard,
+    title: "Board",
+    desc: "Our platform’s Board feature provides a visual management tool that helps you organize and track your projects effortlessly. ",
   },
   {
-    icon: PiFlowerLight,
-    title: "Graphic Designer",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    icon: MdOutlineAppShortcut,
+    title: "App",
+    desc: "Our platform’s App feature allows you to create custom applications tailored to your business needs without any coding.",
   },
   {
-    icon: HiOutlineCog6Tooth,
-    title: "Web Security",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    icon: RiPieChart2Fill,
+    title: "Intergration",
+    desc: "Our platform offers robust Integration capabilities that allow you to connect seamlessly with your existing tools and applications. ",
   },
   {
-    icon: FaRegComment,
-    title: "24/7 Support",
-    desc: "The phrasal sequence of the is now so that many campaign and benefit",
+    icon: MdOutlineAnalytics,
+    title: "Analytics",
+    desc: "Our platform's Analytics feature empowers you to turn data into actionable insights effortlessly.",
   },
 ];
 export const lowClient = [

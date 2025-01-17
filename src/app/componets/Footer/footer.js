@@ -30,56 +30,56 @@ export default function Footer() {
       route: "/page-privacy",
       title: "Privacy Policy",
     },
-    {
-      route: "/documentation",
-      title: "Documentation",
-      liClass: "mt-[10px]",
-    },
-    {
-      route: "/changelog",
-      title: "Changelog",
-      liClass: "mt-[10px]",
-    },
-    {
-      route: "#!",
-      title: "Widget",
-      liClass: "mt-[10px]",
-    },
+    // {
+    //   route: "/documentation",
+    //   title: "Documentation",
+    //   liClass: "mt-[10px]",
+    // },
+    // {
+    //   route: "/changelog",
+    //   title: "Changelog",
+    //   liClass: "mt-[10px]",
+    // },
+    // {
+    //   route: "#!",
+    //   title: "Widget",
+    //   liClass: "mt-[10px]",
+    // },
   ];
   const footerCompany = [
     {
       liClass: "",
-      route: "/page-aboutus",
+      route: "/aboutus",
       title: "About us",
     },
     {
       liClass: "mt-[10px]",
-      route: "/page-services",
-      title: "Services",
+      route: "/features",
+      title: "Features",
     },
+    // {
+    //   route: "/page-team",
+    //   title: "Team",
+    //   liClass: "mt-[10px]",
+    // },
     {
-      route: "/page-team",
-      title: "Team",
-      liClass: "mt-[10px]",
-    },
-    {
-      route: "/page-pricing",
+      route: "/pricing",
       title: "Pricing",
       liClass: "mt-[10px]",
     },
-    {
-      route: "/portfolio-creative-four",
-      title: "Project",
-      liClass: "mt-[10px]",
-    },
+    // {
+    //   route: "/portfolio-creative-four",
+    //   title: "Project",
+    //   liClass: "mt-[10px]",
+    // },
     {
       route: "/blog",
       title: "Blog",
       liClass: "mt-[10px]",
     },
     {
-      route: "/auth-login",
-      title: "Login",
+      route: "/faqs",
+      title: "FAQ",
       liClass: "mt-[10px]",
     },
   ];
@@ -101,12 +101,12 @@ export default function Footer() {
                       />
                     </Link>
                     <p className="mt-6 text-gray-300">
-                      Start working with Tailwind CSS that can provide
-                      everything you need to generate awareness, drive traffic,
-                      connect.
+                      Sinebyte lets you transform ideas into powerful Enterprise
+                      applications that adapt to your business needs. One
+                      platform. No coding. Completely hassle-free.
                     </p>
                     <ul className="list-none mt-5 space-x-1 space-y-1">
-                      <li className="inline">
+                      {/* <li className="inline">
                         <Link
                           href="https://1.envato.market/sinebyte-next"
                           target="_blank"
@@ -114,8 +114,8 @@ export default function Footer() {
                         >
                           <PiShoppingCart className="text-sm" />
                         </Link>
-                      </li>
-                      <li className="inline">
+                      </li> */}
+                      {/* <li className="inline">
                         <Link
                           href="https://www.behance.net/shreethemes"
                           target="_blank"
@@ -123,8 +123,8 @@ export default function Footer() {
                         >
                           <FaBehance className="text-sm" />
                         </Link>
-                      </li>
-                      <li className="inline">
+                      </li> */}
+                      {/* <li className="inline">
                         <Link
                           href="https://dribbble.com/shreethemes"
                           target="_blank"
@@ -132,7 +132,7 @@ export default function Footer() {
                         >
                           <FaDribbble className="text-sm" />
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="inline">
                         <Link
                           href="http://linkedin.com/company/shreethemes"
@@ -171,13 +171,13 @@ export default function Footer() {
                       </li>
                       <li className="inline">
                         <Link
-                          href="mailto:support@shreethemes.in"
+                          href="mailto:muru@dgiverse.com,kris@dgiverse.com"
                           className="size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center border border-gray-800 rounded-md hover:border-indigo-600 dark:hover:border-indigo-600 hover:bg-indigo-600 dark:hover:bg-indigo-600"
                         >
                           <FaRegEnvelope className=" text-sm" />
                         </Link>
                       </li>
-                      <li className="inline">
+                      {/* <li className="inline">
                         <Link
                           href="https://forms.gle/QkTueCikDGqJnbky9"
                           target="_blank"
@@ -185,7 +185,7 @@ export default function Footer() {
                         >
                           <FaRegFile className="text-sm" />
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
 
