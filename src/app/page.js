@@ -160,7 +160,7 @@ export default function Page() {
                 width={66}
                 height={66}
                 className="block mx-auto"
-                alt="worksbyte logo"
+                alt="Sinebyte logo"
               />
             </div>
             <h1 className="mb-6 mt-8 md:text-4xl text-3xl md:leading-normal leading-normal font-bold">

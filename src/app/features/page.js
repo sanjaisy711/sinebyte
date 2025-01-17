@@ -148,7 +148,7 @@ export default function Page() {
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                The worksbyte Advantage
+                The Sinebyte Advantage
               </h4>
               {/* <p className="text-slate-400">
                 Due to its widespread use as filler text for layouts,

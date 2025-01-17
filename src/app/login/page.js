@@ -92,7 +92,7 @@ export default function Page() {
                   height={64}
                   width={72}
                   className="mx-auto"
-                  alt="Worksbyte Logo"
+                  alt="Sinebyte Logo"
                 />
               </Link>
               <h5 className="my-6 text-xl font-semibold">Login</h5>

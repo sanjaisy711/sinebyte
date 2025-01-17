@@ -298,7 +298,7 @@ export default function Page() {
                   11. Limitation of Liability
                 </h5>
                 <p className="text-slate-400">
-                  To the fullest extent permitted by law, Worksbyte Technologies
+                  To the fullest extent permitted by law, Sinebyte Technologies
                   and its affiliates, officers, directors, employees, and agents
                   will not be liable for any direct, indirect, incidental,
                   special, consequential, or punitive damages arising out of or
@@ -316,7 +316,7 @@ export default function Page() {
                   12. Indemnification
                 </h5>
                 <p className="text-slate-400">
-                  You agree to indemnify, defend, and hold harmless Worksbyte
+                  You agree to indemnify, defend, and hold harmless Sinebyte
                   Technologies, its affiliates, and their respective officers,
                   directors, employees, and agents from and against any claims,
                   liabilities, damages, losses, and expenses, including

@@ -48,7 +48,7 @@ export const aboutServices = [
 export const accordionData = [
   {
     id: 1,
-    title: "What is a Worksbyte platform?",
+    title: "What is a Sinebyte platform?",
     content:
       " An LCNC platform enables users to build applications without extensive coding knowledge. It provides visual interfaces, drag-and-drop features, and pre-built components, allowing both technical and non-technical users to create and customize apps quickly and efficiently.",
   },
@@ -60,9 +60,9 @@ export const accordionData = [
   },
   {
     id: 3,
-    title: "How does Worksbyte improve business productivity?",
+    title: "How does Sinebyte improve business productivity?",
     content:
-      "Worksbyte platforms speed up application development by reducing the time and complexity involved in coding. This allows businesses to launch solutions faster, automate routine tasks, and respond quickly to changes, thereby improving overall productivity.",
+      "Sinebyte platforms speed up application development by reducing the time and complexity involved in coding. This allows businesses to launch solutions faster, automate routine tasks, and respond quickly to changes, thereby improving overall productivity.",
   },
   {
     id: 4,
