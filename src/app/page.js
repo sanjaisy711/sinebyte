@@ -255,7 +255,7 @@ export default function Page() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
-                <Image
+                <img
                   src="/images/process.gif"
                   alt="Description of the image"
                   style={{ width: "100%", height: "auto" }}
