@@ -149,11 +149,50 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <br />
+
+      <section className="relative md:pb-24 pb-16 overflow-hidden">
+        <div className="container relative">
+          <div className="grid grid-cols-1 pb-8 text-center">
+            <div className="flex items-center justify-center rounded-full mx-auto bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 size-[110px]">
+              <Image
+                src="/images/logo.svg"
+                width={66}
+                height={66}
+                className="block mx-auto"
+                alt="worksbyte logo"
+              />
+            </div>
+            <h1 className="mb-6 mt-8 md:text-4xl text-3xl md:leading-normal leading-normal font-bold">
+              Leading AI Platform for Enterprise Application in
+              <br />{" "}
+              <span className="after:absolute after:end-0  after:start-0  after:bottom-1 after:lg:h-3 after:h-2 after:w-auto after:rounded-md after:bg-indigo-600/30 relative text-indigo-600">
+                Digital Tranformation.
+              </span>
+            </h1>
+
+            <p className="text-slate-400 max-w-xl mx-auto">
+              Transform your business and boost productivity with Sinebyte.
+              Effortlessly build Enterprise apps that keep pace with your
+              business's rapid growth—all without writing a single line of code.
+            </p>
+          </div>
+
+          <div className="grid mt-8">
+            <div className="relative overflow-hidden rounded-lg shadow-md dark:shadow-gray-800">
+              <video autoPlay muted loop>
+                <source src="/images/modern.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="pt-6">
         <div className="container relative">
           <CompanyLogo />
         </div>
       </section>
+
       <section className="relative md:py-24 py-16">
         <div className="container relative">
           <div className="grid md:grid-cols-3 grid-cols-1 shadow shadow-gray-300 dark:shadow-gray-500 rounded-lg md:divide-x-[1px] divide-y-[1px] divide-gray-200 dark:divide-gray-700">
@@ -298,7 +337,7 @@ export default function Page() {
 
               <div className="mt-4">
                 <Link
-                  href="page-aboutus.html"
+                  href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{" "}
@@ -351,7 +390,7 @@ export default function Page() {
 
               <div className="mt-4">
                 <Link
-                  href="page-aboutus.html"
+                  href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{" "}
@@ -405,7 +444,7 @@ export default function Page() {
 
               <div className="mt-4">
                 <Link
-                  href="page-aboutus.html"
+                  href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{" "}
@@ -437,7 +476,7 @@ export default function Page() {
 
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       Plagiarism checker
@@ -449,7 +488,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
@@ -463,7 +502,7 @@ export default function Page() {
 
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       Content Generator
@@ -475,7 +514,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
@@ -488,7 +527,7 @@ export default function Page() {
                   <span className="mdi mdi-star-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       Search Engine Optimization
@@ -500,7 +539,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
@@ -513,7 +552,7 @@ export default function Page() {
                   <span className="mdi mdi-bookmark-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       Digital name generator
@@ -525,7 +564,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
@@ -542,7 +581,7 @@ export default function Page() {
                   <span className="mdi mdi-account-check-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       Ad Targeting tips
@@ -554,7 +593,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
@@ -567,7 +606,7 @@ export default function Page() {
                   <span className="mdi mdi-comment-multiple-outline text-4xl bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text"></span>
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       Content Rewriter
@@ -579,7 +618,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
