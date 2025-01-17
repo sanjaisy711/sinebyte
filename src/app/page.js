@@ -275,11 +275,11 @@ export default function Page() {
                 Process
               </h4>
               <p className="text-slate-400">
-                Automate complex workflows without code. Our platform &apos s
-                Process feature lets you design and automate processes with a
-                simple drag-and-drop interface. Integrates seamlessly with your
-                data and scales with your business. Streamline operations and
-                reduce manual work.
+                Automate complex workflows without code. Our platform Process
+                feature lets you design and automate processes with a simple
+                drag-and-drop interface. Integrates seamlessly with your data
+                and scales with your business. Streamline operations and reduce
+                manual work.
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
