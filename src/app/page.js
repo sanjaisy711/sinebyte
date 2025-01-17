@@ -174,7 +174,7 @@ export default function Page() {
             <p className="text-slate-400 max-w-xl mx-auto">
               Transform your business and boost productivity with Sinebyte.
               Effortlessly build Enterprise apps that keep pace with your
-              business's rapid growth—all without writing a single line of code.
+              business rapid growth—all without writing a single line of code.
             </p>
           </div>
 
