@@ -200,71 +200,7 @@ export default function Navbar(props) {
 
             <li
               className={`${
-                [
-                  "/index-saas",
-                  "/index-classic-saas",
-                  "/index-modern-saas",
-                  "/index-apps",
-                  "/index-classic-app",
-                  "/index-ai",
-                  "/index-smartwatch",
-                  "/index-marketing",
-                  "/index-seo",
-                  "/index-software",
-                  "/index-payment",
-                  "/index-charity",
-                  "/index-it-solution",
-                  "/index-it-solution-two",
-                  "/index-digital-agency",
-                  "/index-restaurent",
-                  "/index-hosting",
-                  "/index-nft",
-                  "/index-hotel",
-                  "/index-travel",
-                  "/index-cafe",
-                  "/index-gym",
-                  "/index-yoga",
-                  "/index-spa",
-                  "/index-job",
-                  "/index-startup",
-                  "/index-business",
-                  "/index-corporate",
-                  "/index-corporate-two",
-                  "/index-real-estate",
-                  "/index-consulting",
-                  "/index-insurance",
-                  "/index-construction",
-                  "/index-law",
-                  "/index-video",
-                  "/index-personal",
-                  "/index-portfolio",
-                  "/index-photography",
-                  "/index-studio",
-                  "/index-coworking",
-                  "/index-course",
-                  "/index-event",
-                  "/index-podcast",
-                  "/index-hospital",
-                  "/index-phone-number",
-                  "/index-forums",
-                  "/index-shop",
-                  "/index-crypto",
-                  "/index-landing-one",
-                  "/index-landing-two",
-                  "/index-landing-three",
-                  "/index-landing-four",
-                  "/index-service",
-                  "/index-food-blog",
-                  "/index-blog",
-                  "/index-furniture",
-                  "/index-landing-five",
-                  "/index-life-coach",
-                  "/index-landing-six",
-                  "/index-web-programming",
-                  "/index-cleaner",
-                ].includes(manu)
-                  ? "active"
-                  : ""
+                ["/features"].includes(manu) ? "active" : ""
               } has-submenu parent-parent-menu-item`}
             >
               <Link href="/features">Features</Link>
@@ -272,7 +208,7 @@ export default function Navbar(props) {
 
             <li
               className={`${
-                ["/features"].includes(manu) ? "active" : ""
+                ["/pricing"].includes(manu) ? "active" : ""
               } has-submenu parent-parent-menu-item`}
             >
               <Link href="/pricing">Pricing</Link>
@@ -290,11 +226,7 @@ export default function Navbar(props) {
 
             <li
               className={`${
-                ["/ui-components", "/documentation", "/changelog"].includes(
-                  manu
-                )
-                  ? "active"
-                  : ""
+                ["/aboutus"].includes(manu) ? "active" : ""
               } has-submenu parent-menu-item`}
             >
               <Link href="/aboutus">About Us</Link>
