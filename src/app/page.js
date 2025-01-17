@@ -257,12 +257,12 @@ export default function Page() {
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
                   src="/images/process.gif"
-                  width={0}
-                  height={0}
+                  width={800}
+                  height={600}
                   sizes="100vw"
                   style={{ width: "100%", height: "auto" }}
                   className="ltr:rounded-tr-lg rtl:rounded-tl-lg"
-                  alt=""
+                  alt="Description of the image for accessibility"
                 />
               </div>
             </div>

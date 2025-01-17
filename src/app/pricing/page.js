@@ -210,7 +210,7 @@ export default function Page() {
                   <div>
                     <Link href="/">
                       <Image
-                        src="/images/logo-icon.svg"
+                        src="/images/logo.svg"
                         height={74}
                         width={82}
                         className="mx-auto"
