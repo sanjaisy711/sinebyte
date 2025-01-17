@@ -87,7 +87,7 @@ export default function Page() {
 
                   <div className="content mt-7">
                     <Link
-                      href="/page-services"
+                      href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
                       {item.title}
@@ -96,7 +96,7 @@ export default function Page() {
 
                     <div className="mt-5">
                       <Link
-                        href="/page-services"
+                        href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
@@ -181,7 +181,7 @@ export default function Page() {
 
               <div className="mt-4">
                 <Link
-                  href="page-aboutus.html"
+                  href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                 >
                   Find Out More{" "}
