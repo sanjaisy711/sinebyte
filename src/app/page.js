@@ -83,16 +83,16 @@ export default function Page() {
           <div className="relative grid lg:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
             <div className="lg:col-span-7">
               <div className="lg:me-6 lg:text-start text-center">
-                <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-6xl mb-5">
-                  Access powerful AI <br />
-                  For
+                <h1 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5">
+                  Transform Your Enterprise with <br />
+                  the
                   <TypeAnimation
                     sequence={[
-                      " Ai Content",
+                      "  Power of  AI",
                       2000,
-                      " Blog Writing",
+                      " Power of AI",
                       2000,
-                      " Technical Writing",
+                      "   Power  of  AI",
                       2000,
                     ]}
                     wrapper="span"
@@ -102,8 +102,9 @@ export default function Page() {
                   />
                 </h1>
                 <p className="text-lg max-w-xl lg:ms-0 mx-auto">
-                  Sinebyte lets you transform ideas into powerful Enterprise
-                  applications that adapt to your business needs.
+                  Sinebyte empowers you to transform ideas into AI-driven
+                  enterprise applications, seamlessly adapting to your business
+                  needs.
                 </p>
 
                 <div className="subcribe-form mt-6 mb-3">
@@ -171,10 +172,13 @@ export default function Page() {
               </span>
             </h1>
 
-            <p className="text-slate-400 max-w-xl mx-auto">
-              Transform your business and boost productivity with Sinebyte.
-              Effortlessly build Enterprise apps that keep pace with your
-              business rapid growth—all without writing a single line of code.
+            <p
+              className="text-slate-2
+            00 max-w-xl mx-auto"
+            >
+              "Empower Your Team With Sinebyte’s AI Platform To Build Custom
+              Enterprise Apps Effortlessly And Stay Ahead In A Fast-Changing
+              Business World."
             </p>
           </div>
 
