@@ -176,9 +176,9 @@ export default function Page() {
               className="text-slate-2
             00 max-w-xl mx-auto"
             >
-              "Empower Your Team With Sinebyte’s AI Platform To Build Custom
+              Empower Your Team With Sinebyte AI Platform To Build Custom
               Enterprise Apps Effortlessly And Stay Ahead In A Fast-Changing
-              Business World."
+              Business World.
             </p>
           </div>
 
