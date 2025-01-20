@@ -83,7 +83,7 @@ export default function Page() {
           <div className="relative grid lg:grid-cols-12 grid-cols-1 items-center mt-10 gap-[30px]">
             <div className="lg:col-span-7">
               <div className="lg:me-6 lg:text-start text-center">
-                <h1 className="font-bold lg:leading-normal leading-normal text-3xl lg:text-4xl mb-5">
+                <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-4xl mb-5">
                   Transform Your Enterprise with <br />
                   the
                   <TypeAnimation

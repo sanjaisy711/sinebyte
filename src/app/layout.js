@@ -42,8 +42,8 @@ const alex = Alex_Brush({
 });
 
 export const metadata = {
-  title: "Sinebyte",
-  description: "Sinebyte",
+  title: "Sinebyte - Transform Your Enterprise with the Power of AI",
+  description: "Sinebyte ",
 };
 
 export default function RootLayout({ children }) {
