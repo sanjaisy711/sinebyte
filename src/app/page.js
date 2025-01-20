@@ -261,28 +261,28 @@ export default function Page() {
                 AI-Driven Data Analytics & Insights
               </h3>
               <p className="text-slate-400 max-w-xl">
-                Our platform’s Data Form feature allows you to create custom
-                forms effortlessly without coding.With a drag-and-drop
-                interface, it streamlines data collection, validation, and
-                integration into your applications
+                AI-driven data analytics transforms raw data into powerful
+                insights. By uncovering hidden patterns and delivering real-time
+                intelligence, it empowers businesses to make data-driven
+                decisions that fuel growth and drive a competitive advantage.
               </p>
 
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Simplify workflows
+                  Predictive analytics drive smarter decisions.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Reduce errors
+                  AI automation boosts efficiency.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Manage data efficiently all hassle-free
+                  Personalized insights enhance customer experience.
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -290,7 +290,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -328,7 +328,7 @@ export default function Page() {
                 Predictive Modeling For Decision Making
               </h4>
               <p className="text-slate-400">
-                Elevate your business with Sinebyte's AI platform, simplifying
+                Elevate your business with Sinebyte AI platform, simplifying
                 predictive modeling with intuitive tools and real-time insights.
               </p>
               <ul className="list-none text-slate-400 mt-4">
@@ -342,7 +342,7 @@ export default function Page() {
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Explore Sinebyte's AI solutions now!
+                  Explore Sinebyte AI solutions now!
                 </li>
               </ul>
 
