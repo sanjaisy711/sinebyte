@@ -142,7 +142,7 @@ export default function Page() {
                     blurDataURL="/images/light-dash.png"
                     style={{ width: "1175px", height: "auto" }}
                     className="lg:max-w-none lg:ms-14"
-                    alt=""
+                    alt="sinebyte dash"
                   />
                 </div>
               </div>
@@ -251,7 +251,7 @@ export default function Page() {
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
-                alt=""
+                alt="dataform"
               />
             </div>
 
@@ -365,7 +365,7 @@ export default function Page() {
                 sizes="100vw"
                 style={{ width: "100%", height: "auto" }}
                 className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
-                alt=""
+                alt="app"
               />
             </div>
 
@@ -419,7 +419,7 @@ export default function Page() {
                   sizes="100vw"
                   style={{ width: "100%", height: "auto" }}
                   className="ltr:rounded-tr-lg rtl:rounded-tl-lg"
-                  alt=""
+                  alt="analytics"
                 />
               </div>
             </div>
