@@ -176,9 +176,10 @@ export default function Page() {
               className="text-slate-2
             00 max-w-xl mx-auto"
             >
-              Empower Your Team With Sinebyte AI Platform To Build Custom
-              Enterprise Apps Effortlessly And Stay Ahead In A Fast-Changing
-              Business World.
+              Empower your team with the Sinebyte AI Platform, equipped with
+              advanced enterprise AI capabilities. Easily create custom apps to
+              drive innovation, streamline efficiency, and stay ahead in a
+              rapidly changing business world.
             </p>
           </div>
 
@@ -192,9 +193,9 @@ export default function Page() {
         </div>
       </section>
       <section className="pt-6">
-        <div className="container relative">
+        {/* <div className="container relative">
           <CompanyLogo />
-        </div>
+        </div> */}
       </section>
 
       <section className="relative md:py-24 py-16">
@@ -242,7 +243,7 @@ export default function Page() {
         </div>
 
         <div className="container relative md:mt-24 mt-16">
-          <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
+          <div className="grid md:grid-cols-2 grid-cols-1 items-center">
             <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:ps-12 ps-8 lg:pt-12 pt-8 lg:me-8">
               <Image
                 src="/images/dataform.png"
@@ -257,7 +258,7 @@ export default function Page() {
 
             <div className="">
               <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Dataform
+                AI-Driven Data Analytics & Insights
               </h3>
               <p className="text-slate-400 max-w-xl">
                 Our platform’s Data Form feature allows you to create custom
@@ -298,9 +299,15 @@ export default function Page() {
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg border border-indigo-600/40 bg-indigo-600/10 dark:bg-indigo-600/20 lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
-                <video autoPlay muted loop>
-                  <source src="/images/processS.mp4" type="video/mp4" />
-                </video>
+                <Image
+                  src="/images/process.png"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: "100%", height: "auto" }}
+                  className="ltr:rounded-tl-lg rtl:rounded-tr-lg"
+                  alt="dataform"
+                />
                 {/* <img
                   src="/images/process.gif"
                   alt="loading..."
@@ -318,27 +325,24 @@ export default function Page() {
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Process
+                Predictive Modeling For Decision Making
               </h4>
               <p className="text-slate-400">
-                Automate complex workflows without code. Our platform Process
-                feature lets you design and automate processes with a simple
-                drag-and-drop interface. Integrates seamlessly with your data
-                and scales with your business. Streamline operations and reduce
-                manual work.
+                Elevate your business with Sinebyte's AI platform, simplifying
+                predictive modeling with intuitive tools and real-time insights.
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Seamlessly integrate data
+                  Leverage advanced techniques for smarter.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  Scale as your business grows
+                  Faster decisions.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Apps to keep your operations running smoothly
+                  Explore Sinebyte's AI solutions now!
                 </li>
               </ul>
 
@@ -371,27 +375,26 @@ export default function Page() {
 
             <div className="">
               <h3 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                App
+                Keyword Extraction
               </h3>
               <p className="text-slate-400 max-w-xl">
-                Our platform’s App feature allows you to create custom
-                applications tailored to your business needs without any coding.
-                With an intuitive interface and pre-built components, you can
-                design, deploy, and manage apps quickly and efficiently.
+                Sinebyte empowers businesses to unlock actionable insights from
+                diverse data sources using AI and NLP. By leveraging advanced
+                technologies.
               </p>
 
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Streamline operations
+                  We uncover critical patterns and trends.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Enhance user experiences
+                  Enabling smarter decision-making.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Adapt to changing requirements
+                  Significantly enhancing operational efficiency.
                 </li>
               </ul>
 
@@ -426,26 +429,28 @@ export default function Page() {
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                Analytics
+                Automation of workflows and processes
               </h4>
               <p className="text-slate-400">
-                Our platforms Analytics feature empowers you to turn data into
-                actionable insights effortlessly. With intuitive dashboards and
-                customizable reports, you can visualize key metrics and track
-                performance in real time.
+                AI-powered automation streamlines workflows and processes by
+                eliminating repetitive tasks and reducing manual effort. It
+                enhances efficiency, accuracy, and scalability, allowing teams
+                to focus on high-value activities.
               </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Make informed decisions.
+                  Enhances workflows, reducing time and effort required for
+                  tasks.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  Identify trends, and optimize processes.
+                  Improves precision, minimizing errors and inconsistencies.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  All without the need for data analysis skills.
+                  Supports growth by enabling teams to handle larger workloads
+                  without compromising quality.
                 </li>
               </ul>
 
