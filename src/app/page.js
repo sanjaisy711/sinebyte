@@ -346,7 +346,7 @@ export default function Page() {
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -354,7 +354,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -398,7 +398,7 @@ export default function Page() {
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -406,7 +406,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -454,7 +454,7 @@ export default function Page() {
                 </li>
               </ul>
 
-              <div className="mt-4">
+              {/* <div className="mt-4">
                 <Link
                   href="#"
                   className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
@@ -462,7 +462,7 @@ export default function Page() {
                   Find Out More{" "}
                   <MdKeyboardArrowRight className="ms-1 text-lg" />
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

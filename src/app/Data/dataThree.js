@@ -1145,23 +1145,23 @@ export const servicesData = [
 export const servicesTwo = [
   {
     icon: SiGoogleforms,
-    title: "Data Form",
-    desc: "Our platform’s Data Form feature allows you to create custom forms effortlessly without coding.",
+    title: "AI-Driven Data Analytics & Insights",
+    desc: "AI-driven data analytics transforms raw data into powerful insights. By uncovering hidden patterns and delivering real-time intelligence, it empowers businesses to make data-driven decisions that fuel growth and drive a competitive advantage.",
   },
   {
     icon: GiProcessor,
-    title: "Process",
-    desc: "Automate complex workflows without code. Our platform's Process feature lets you design and automate processes with a simple drag-and-drop interface. ",
+    title: "Predictive Modeling For Decision Making",
+    desc: "Elevate your business with Sinebyte's AI platform, simplifying predictive modeling with intuitive tools and real-time insights. Leverage advanced techniques for smarter, faster decisions. Explore Sinebyte's AI solutions now!",
   },
   {
     icon: BiChalkboard,
-    title: "Board",
-    desc: "Our platform’s Board feature provides a visual management tool that helps you organize and track your projects effortlessly. ",
+    title: "Keyword Extraction",
+    desc: "Sinebyte empowers businesses to unlock actionable insights from diverse data sources using AI and NLP. By leveraging advanced technologies, we uncover critical patterns and trends, enabling smarter decision-making and significantly enhancing operational efficiency",
   },
   {
     icon: MdOutlineAppShortcut,
-    title: "App",
-    desc: "Our platform’s App feature allows you to create custom applications tailored to your business needs without any coding.",
+    title: "Automation of workflows and processes",
+    desc: "AI-powered automation streamlines workflows and processes by eliminating repetitive tasks and reducing manual effort. It enhances efficiency, accuracy, and scalability, allowing teams to focus on high-value activities.",
   },
   {
     icon: RiPieChart2Fill,
