@@ -2603,7 +2603,7 @@ export default function Page() {
         {/* <MobileApp /> */}
       </section>
       <Footer />
-      <CookieModal />
+      {/* <CookieModal /> */}
       <Switcher />
     </>
   );

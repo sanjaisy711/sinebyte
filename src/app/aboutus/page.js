@@ -144,9 +144,9 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="container relative mt-8">
+        {/* <div className="container relative mt-8">
           <CompanyLogo />
-        </div>
+        </div> */}
       </section>
 
       <KeyFeature btnFill={true} />

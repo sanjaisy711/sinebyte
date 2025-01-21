@@ -135,11 +135,11 @@ export default function Page() {
             <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
-                  src="/images/hero1.png"
+                  src="/images/saas/saas.PNG"
                   width={0}
                   height={0}
                   sizes="100vw"
-                  style={{ width: "400px", height: "500px" }}
+                  style={{ width: "500px", height: "500px" }}
                   className="ltr:rounded-tr-lg rtl:rounded-tl-lg"
                   alt=""
                 />
