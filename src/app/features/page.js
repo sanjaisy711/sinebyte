@@ -148,34 +148,56 @@ export default function Page() {
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
-                The Sinebyte Advantage
+                Why Choose Sinebyte?
               </h4>
-              {/* <p className="text-slate-400">
-                Due to its widespread use as filler text for layouts,
-                non-readability is of great importance: human perception is
-                tuned to recognize certain patterns and repetitions in texts. If
-                the distribution of letters visual impact.
-              </p> */}
+              <p className="text-slate-400">
+                At Sinebyte, we provide advanced software solutions that drive
+                business success. Here’s why we’re the perfect partner for your
+                digital transformation:
+              </p>
               <ul className="list-none text-slate-400 mt-4">
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Choose from 100s of pre-built templates or build your app from
-                  scratch
+                  We leverage cutting-edge technology to deliver scalable, high
+                </li>
+                <li className="mb-1 flex items-center">
+                  performance solutions that keep you ahead.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />
-                  Get access to powerful management tools that make handling
-                  projects easier
+                  With an agile approach, we deliver faster, flexible solutions
+                  that
+                </li>
+                <li className="mb-1 flex items-center">
+                  evolve with your business needs.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Collaborate with your team to build your apps on a single,
-                  unified platform
+                  We provide top-tier solutions that offer maximum value
+                </li>
+                <li className="mb-1 flex items-center">
+                  while staying within your budget.
                 </li>
                 <li className="mb-1 flex items-center">
                   <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
-                  Accelerate development and minimize your costs and time to
-                  deployment
+                  Our software is designed specifically for your business,
+                </li>
+                <li className="mb-1 flex items-center">
+                  addressing your unique needs and challenges.
+                </li>
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  Our experienced professionals work collaboratively to deliver
+                </li>
+                <li className="mb-1 flex items-center">
+                  reliable, efficient solutions that power your growth.
+                </li>
+                <li className="mb-1 flex items-center">
+                  <BsCheckCircle className="text-indigo-600 text-base me-2" />{" "}
+                  Easily integrate our solutions with your existing systems,
+                </li>
+                <li className="mb-1 flex items-center">
+                  ensuring smooth operations without disruptions.
                 </li>
               </ul>
 
