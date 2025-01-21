@@ -220,7 +220,8 @@ export default function Page() {
               Available for freelance projects
             </h6> */}
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-              Do you have digital project? <br /> Lets talk.
+              Ready to Start Your Digital Journey? <br /> Let’s Connect and
+              Create!
             </h3>
 
             {/* <p className="text-slate-400 max-w-xl mx-auto">
@@ -230,7 +231,7 @@ export default function Page() {
 
             <div className="mt-6">
               <Link
-                href="/contact-one"
+                href="/contactus"
                 className="py-2 px-5 inline-flex items-center font-semibold tracking-wide border align-middle duration-500 text-base text-center bg-indigo-600 hover:bg-indigo-700 border-indigo-600 hover:border-indigo-700 text-white rounded-md mt-4"
               >
                 <FiPhone className="me-1 text-lg" /> Contact us

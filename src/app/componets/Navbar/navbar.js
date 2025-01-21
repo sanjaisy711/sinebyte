@@ -85,7 +85,7 @@ export default function Navbar(props) {
                 className="l-light"
                 width={168}
                 height={34}
-                alt="logo"
+                alt="Signbyte logo"
               />
             </span>
             <Image
@@ -93,7 +93,7 @@ export default function Navbar(props) {
               width={168}
               height={34}
               className="hidden dark:inline-block"
-              alt="logo"
+              alt=" Signbyte logo"
             />
           </Link>
         ) : (
@@ -103,14 +103,14 @@ export default function Navbar(props) {
               width={168}
               height={34}
               className="inline-block dark:hidden"
-              alt="logo"
+              alt=" Signbyte logo"
             />
             <Image
               src="/images/logo-light.svg"
               width={168}
               height={34}
               className="hidden dark:inline-block"
-              alt="logo"
+              alt=" Signbyte logo"
             />
           </Link>
         )}

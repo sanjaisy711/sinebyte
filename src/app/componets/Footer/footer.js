@@ -97,7 +97,7 @@ export default function Footer() {
                         src="/images/logo-light.svg"
                         width={300}
                         height={100}
-                        alt=""
+                        alt="sinebyte"
                       />
                     </Link>
                     <p className="mt-6 text-gray-300">
