@@ -200,17 +200,31 @@ export default function Page() {
 
       <section className="relative md:py-24 py-16">
         <div className="container relative">
+          <div className="grid grid-cols-1 pb-8">
+            <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
+              Sinebyte Platform : Empowering Enterprises with AI
+            </h3>
+
+            <p className="text-slate-400 max-w-xl">
+              Sinebyte harnesses AI to drive efficiency, innovation, and
+              customer satisfaction. Our platform addresses key enterprise needs
+              with cutting-edge solutions:
+            </p>
+          </div>
+
           <div className="grid md:grid-cols-3 grid-cols-1 shadow shadow-gray-300 dark:shadow-gray-500 rounded-lg md:divide-x-[1px] divide-y-[1px] divide-gray-200 dark:divide-gray-700">
             <div className="relative p-6 md:p-8">
               <i className="mdi mdi-account-search-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
               <h5 className="text-xl font-semibold my-5">
-                Search & Write Content
+                Data Management and Analytics
               </h5>
 
               <p className="text-slate-400">
-                If the distribution of letters and words is random, the reader
-                will not be distracted from making.
+                Sinebyte transforms data into actionable insights with
+                predictive analytics and real-time dashboards. We streamline
+                data handling, enabling smarter decisions and optimized
+                operations for competitive advantage.
               </p>
 
               <MdKeyboardArrowRight className="size-8 p-1 bg-indigo-600 text-white rounded-full flex justify-center items-center absolute md:top-2/4 md:-translate-y-2/4 -bottom-4 md:-end-0 end-2/4 ltr:translate-x-2/4 rtl:-translate-x-2/4 rtl:rotate-180 z-1" />
@@ -219,11 +233,13 @@ export default function Page() {
             <div className="relative p-6 md:p-8">
               <i className="mdi mdi-wallet-bifold-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-              <h5 className="text-xl font-semibold my-5">Discribe Content</h5>
+              <h5 className="text-xl font-semibold my-5">Process Automation</h5>
 
               <p className="text-slate-400">
-                If the distribution of letters and words is random, the reader
-                will not be distracted from making.
+                Simplify operations with Sinebyte’s AI-driven automation. Our
+                RPA and IDP solutions handle tasks like invoicing and
+                compliance, cutting costs and freeing teams for strategic
+                priorities.
               </p>
 
               <MdKeyboardArrowRight className="size-8 p-1 bg-indigo-600 text-white rounded-full flex justify-center items-center absolute md:top-2/4 md:-translate-y-2/4 -bottom-4 md:-end-0 end-2/4 ltr:translate-x-2/4 rtl:-translate-x-2/4 rtl:rotate-180 z-1" />
@@ -232,11 +248,15 @@ export default function Page() {
             <div className="relative p-6 md:p-8">
               <i className="mdi mdi-home-plus-outline bg-gradient-to-tl to-indigo-600 from-red-600 text-transparent bg-clip-text text-[45px]"></i>
 
-              <h5 className="text-xl font-semibold my-5">Generate Content</h5>
+              <h5 className="text-xl font-semibold my-5">
+                Enhanced Customer Interaction
+              </h5>
 
               <p className="text-slate-400">
-                If the distribution of letters and words is random, the reader
-                will not be distracted from making.
+                Sinebyte’s AI tools—chatbots, virtual assistants, and
+                recommendation engines—deliver personalized customer
+                experiences. From 24/7 support to sentiment insights, we help
+                build loyalty and exceed expectations.
               </p>
             </div>
           </div>
@@ -472,13 +492,11 @@ export default function Page() {
             <div className="lg:col-span-8 md:col-span-12">
               <div className="grid grid-cols-1 pb-8">
                 <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                  AI Generate Content In Seconds
+                Top Enterprise AI Use Cases Across Industries
                 </h3>
 
                 <p className="text-slate-400 max-w-xl">
-                  Launch your campaign and benefit from our expertise on
-                  designing and managing conversion centered Tailwind CSS v3.x
-                  html page.
+                With Sinebyte, leverage AI to innovate, streamline, and excel. Partner with us to unlock growth and new possibilities.
                 </p>
               </div>
 
@@ -491,21 +509,21 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Plagiarism checker
+                      Predictive Maintenance (Manufacturing)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI-driven models analyze equipment data to predict
+                      failures, reducing downtime and maintenance costs.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -517,21 +535,21 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Content Generator
+                      Personalized Marketing (Retail)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI tools provide personalized recommendations and targeted
+                      promotions, boosting customer engagement and sales.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -542,21 +560,22 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Search Engine Optimization
+                      Fraud Detection (Finance)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      Machine learning algorithms detect anomalies in
+                      transactions, minimizing risks and preventing financial
+                      fraud.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -567,21 +586,22 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Digital name generator
+                      Demand Forecasting (Supply Chain)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI-powered analytics optimize inventory management and
+                      predict demand fluctuations, ensuring supply chain
+                      efficiency.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -596,21 +616,21 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Ad Targeting tips
+                      Virtual Health Assistants (Healthcare)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI chatbots and assistants provide 24/7 patient support,
+                      schedule management, and preliminary diagnosis guidance.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
 
@@ -621,21 +641,22 @@ export default function Page() {
                       href="#"
                       className="title h5 text-lg font-medium hover:text-indigo-600"
                     >
-                      Content Rewriter
+                      Talent Acquisition (Human Resources)
                     </Link>
                     <p className="text-slate-400 mt-3">
-                      The phrasal sequence of the is now so that many campaign
-                      and benefit
+                      AI streamlines recruitment by analyzing resumes,
+                      automating candidate matching, and predicting employee
+                      success.
                     </p>
 
-                    <div className="mt-5">
+                    {/* <div className="mt-5">
                       <Link
                         href="#"
                         className="relative inline-flex items-center font-semibold tracking-wide align-middle text-base text-center border-none after:content-[''] after:absolute after:h-px after:w-0 hover:after:w-full after:end-0 hover:after:end-auto after:bottom-0 after:start-0 after:duration-500 text-indigo-600 hover:text-indigo-600 after:bg-indigo-600 duration-500 ease-in-out"
                       >
                         Read More <FaArrowRight className="ms-2 text-[10px]" />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

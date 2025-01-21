@@ -1165,13 +1165,13 @@ export const servicesTwo = [
   },
   {
     icon: RiPieChart2Fill,
-    title: "Intergration",
-    desc: "Our platform offers robust Integration capabilities that allow you to connect seamlessly with your existing tools and applications. ",
+    title: "Enhanced Customer Interaction",
+    desc: "Sinebyte’s AI tools—chatbots, virtual assistants, and recommendation engines—deliver personalized customer experiences. From 24/7 support to sentiment insights, we help build loyalty and exceed expectations.",
   },
   {
     icon: MdOutlineAnalytics,
-    title: "Analytics",
-    desc: "Our platform's Analytics feature empowers you to turn data into actionable insights effortlessly.",
+    title: "Data Management and Analytics",
+    desc: "Sinebyte transforms data into actionable insights with predictive analytics and real-time dashboards. We streamline data handling, enabling smarter decisions and optimized operations for competitive advantage.",
   },
 ];
 export const lowClient = [
