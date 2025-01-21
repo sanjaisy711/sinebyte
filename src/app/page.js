@@ -492,11 +492,12 @@ export default function Page() {
             <div className="lg:col-span-8 md:col-span-12">
               <div className="grid grid-cols-1 pb-8">
                 <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">
-                Top Enterprise AI Use Cases Across Industries
+                  Top Enterprise AI Use Cases Across Industries
                 </h3>
 
                 <p className="text-slate-400 max-w-xl">
-                With Sinebyte, leverage AI to innovate, streamline, and excel. Partner with us to unlock growth and new possibilities.
+                  With Sinebyte, leverage AI to innovate, streamline, and excel.
+                  Partner with us to unlock growth and new possibilities.
                 </p>
               </div>
 

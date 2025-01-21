@@ -132,10 +132,24 @@ export default function Page() {
         </div> */}
         <div className="container relative md:mt-24 mt-16">
           <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
-            <div className="relative order-1 md:order-2">
+            <div
+              className="relative order-1 md:order-2 wow animate__animated animate__fadeInRight"
+              data-wow-delay=".5s"
+            >
+              <Image
+                src="/images/saas/saas3.PNG"
+                width={0}
+                height={0}
+                sizes="100vw"
+                style={{ width: "100%", height: "auto" }}
+                alt=""
+              />
+              <div className="overflow-hidden absolute lg:size-[400px] size-[320px] bg-indigo-600/5 bottom-0 end-0 rotate-45 -z-1 rounded-3xl"></div>
+            </div>
+            {/* <div className="relative order-1 md:order-2">
               <div className="relative overflow-hidden rounded-lg lg:pe-12 pe-8 lg:pt-12 pt-8 lg:ms-8">
                 <Image
-                  src="/images/saas/saas.PNG"
+                  src="/images/saas/saas2.PNG"
                   width={0}
                   height={0}
                   sizes="100vw"
@@ -144,7 +158,7 @@ export default function Page() {
                   alt=""
                 />
               </div>
-            </div>
+            </div> */}
 
             <div className="order-2 md:order-1">
               <h4 className="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">
