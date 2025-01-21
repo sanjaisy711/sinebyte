@@ -37,15 +37,15 @@ export default function Switcher() {
           document.documentElement.className = "dark";
         }
         break;
-      case "layout":
-        if (event.target?.innerText === "LTR") {
-          document.documentElement.dir = "ltr";
-        } else {
-          document.documentElement.dir = "rtl";
-        }
-        break;
-      default:
-        break;
+      // case "layout":
+      //   if (event.target?.innerText === "LTR") {
+      //     document.documentElement.dir = "ltr";
+      //   } else {
+      //     document.documentElement.dir = "rtl";
+      //   }
+      //   break;
+      // default:
+      //   break;
     }
   }
   return (
