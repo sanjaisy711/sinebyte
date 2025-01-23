@@ -311,19 +311,8 @@ export default function Page() {
                               setCountry(countryName);
                             }}
                           >
-                            {/* {Object.entries(countryCodeList).map(
-                              ([code, label]) => {(
-
-                                <option key={code} value={code}>
-                                  {label}
-                                </option>
-                              )}
-                            )} */}
                             {Object.entries(countryCodeList).map(
                               ([code, label]) => {
-                                // console.log(code);
-                                //console.log(label);
-                                // Log code to the console
                                 return (
                                   // Return the JSX
                                   <option

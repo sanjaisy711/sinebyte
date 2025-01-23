@@ -7,7 +7,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import getEnvConfig from "../componets/getenv";
 import PhoneInputComponent from "../componets/PhoneInput";
-import CountryCodeDropdown from "../componets/CountryCodeDropdown";
+import CountryCodeSelector from "../componets/CountryCodeSelector";
 
 export default function Page() {
   const [name, setName] = useState("");
@@ -177,7 +177,6 @@ export default function Page() {
                   )}
                 </div>
                 <br />
-
                 {/* Email Field */}
                 <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
                   <div className="relative bg-inherit">
@@ -216,7 +215,6 @@ export default function Page() {
                   )}
                 </div>
                 <br />
-
                 {/* <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
                   <div className="relative bg-inherit flex">
                     <select
@@ -478,11 +476,8 @@ export default function Page() {
                     </p>
                   )}
                 </div> */}
-                <PhoneInputComponent />
-                
+                <CountryCodeSelector />
                 <br />
-
-                
                 <div className="mb-4p-6 bg-white dark:bg-slate-900 shadow-md dark:shadow-gray-800">
                   <div className="relative bg-inherit">
                     <input
@@ -537,7 +532,6 @@ export default function Page() {
                     {!isChecked && "Please accept our terms and Conditions"}
                   </p>
                 </div>
-
                 {/* <div className="flex items-center justify-between mt-6">
                   <button
                     type="submit"
