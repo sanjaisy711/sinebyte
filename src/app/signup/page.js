@@ -224,15 +224,6 @@ export default function Page() {
                       onChange={(e) => setSelectedCountryCode(e.target.value)}
                       className="peer h-10 w-20 rounded-l-lg border border-gray-300 bg-transparent px-2 text-sm text-gray-900 ring-2 ring-gray-500 focus:border-indigo-600 focus:outline-none dark:border-gray-600 dark:text-slate-200 dark:ring-gray-700 dark:focus:border-indigo-600 dark:bg-slate-900"
                     >
-                      <option value="+93">
-                        <img
-                          src="path/to/flags/afghanistan.png"
-                          alt="Afghanistan"
-                          class="w-6 h-4 mr-2"
-                        />{" "}
-                        +93 - Afghanistan
-                      </option>
-
                       <option value="+93">🇦🇫 +93 - Afghanistan</option>
                       <option value="+355">🇦🇱 +355 - Albania</option>
                       <option value="+213">🇩🇿 +213 - Algeria</option>
