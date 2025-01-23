@@ -592,18 +592,37 @@
 }
 
 @media (min-width: 768px) {
-  select {
-    font-family: "Segoe UI Emoji", "Apple Color Emoji", sans-serif;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    text-indent: 30px; /* Add extra indent for flags */
+  #topnav {
+    .navigation-menu {
+      > li {
+        &.has-submenu {
+          &:hover {
+            > .submenu {
+              @apply visible opacity-100 mt-0;
+              > li {
+                &.has-submenu {
+                  &:hover {
+                    > .submenu {
+                      @apply visible opacity-100 ms-0;
+                      > li {
+                        &:hover {
+                          > .submenu {
+                            @apply visible opacity-100 ms-0;
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
-
-  select option {
-    padding-left: 40px; /* Increase padding to accommodate flags */
-    background-size: 20px 20px;
-    background-repeat: no-repeat;
-    background-position: left center;
+  .navbar-toggle {
+    @apply block;
   }
 }
 
